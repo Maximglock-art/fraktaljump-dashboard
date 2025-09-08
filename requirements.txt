@@ -1,9 +1,11 @@
-streamlit>=1.35.0
-pandas>=2.0.3
-numpy>=1.25.0
-plotly>=5.22.0
-requests>=2.31.0
-scipy>=1.11.0
-statsmodels>=0.14.0
-python-dotenv>=1.0.0
-streamlit-autorefresh>=1.0.1
+# Core
+streamlit>=1.33,<2
+pandas>=2.2,<3
+numpy>=1.26,<3
+requests>=2.31,<3
+plotly>=5.20,<6
+
+# Optional (enable better stats & auto-refresh UI)
+scipy>=1.11,<2
+statsmodels>=0.14,<1
+streamlit-autorefresh>=1.0,<2
